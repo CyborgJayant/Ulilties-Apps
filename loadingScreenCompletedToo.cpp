@@ -69,5 +69,6 @@ main()
     std::cout<<"Press Enter to display what you wrote during Loading\n";
     printLog=1;
     t2.join();
+///will not work with gcc minGW as they dont support threads, use another compiler
 }
 
